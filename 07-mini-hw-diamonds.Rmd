@@ -1,0 +1,33 @@
+---
+title: "Mini HW 07 - Wrangling diamonds"
+author: "Mine Cetinkaya-Rundel"
+date: "Sep 26, 2017"
+output: 
+  html_document: 
+    fig_height: 4
+    highlight: pygments
+    keep_md: yes
+    theme: sandstone
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Load packages
+
+```{r load-packages, message=FALSE}
+library(ggplot2)
+library(dplyr)
+```
+
+### Load data
+
+```{r load-data}
+data(diamonds)
+```
+
+### Assignment
+
+(Add question numbers, your answers, and code chunks as needed.)
+
